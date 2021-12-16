@@ -23,13 +23,13 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.css">
-<script src="theme.js"></script>
+  <script src="theme.js"></script>
 </head>
 
 <body>
   <!-- Navigation Bar -->
   <nav>
-    <div class="container">
+    <div class="container" id="navbar">
       <div class="row">
         <div class="three columns" style="margin-top: 5%;">
           <h6><a href="https://kabircampwala.github.io/">Kabir Ahmed Campwala</a></h6>
@@ -37,9 +37,9 @@
         <div class="nine columns" style="text-align: end; margin-top: 5%;">
           <a href="#skills">Skills</a>
           <span>|</span>
-          <a href="">Projects</a>
+          <a href="#projects">Projects</a>
           <span>|</span>
-          <a href="">Articles</a>
+          <a href="#articles">Articles</a>
           <span>|</span>
           <a href="">Contact</a>
         </div>
@@ -56,14 +56,16 @@
       <div class="twelve columns" style="margin-top: 17%; text-align: center; border: 5px solid bisque; padding: 4rem;">
         <h3 style="border-bottom: 5px solid bisque;"><strong>Kabir Ahmed Campwala</strong> </h3>
         <p>
-          I'm a Computer Science student and a technical writer for <a href="https://mysqlcode.com/" target="_blank">MySQLCode.com</a> at <a href="https://www.journaldev.com/" target="_blank">JournalDev.com</a>. I love to code, read, and write about what I learn.
+          I'm a Computer Science student and a technical writer for <a href="https://mysqlcode.com/"
+            target="_blank">MySQLCode.com</a> at <a href="https://www.journaldev.com/"
+            target="_blank">JournalDev.com</a>. I love to code, read, and write about what I learn.
           This is a repository of all I've learned and developed over the years.
           <br>
           <br>
           You can have a look at some of my work here:
         </p>
-        <button href="#projects" class="button-primary">My Projects</button>
-        <button href="#articles" class="button-primary">My Articles</button>
+        <a href="#projects"><button href="#projects" class="button-primary">My Projects</button></a>
+        <a href="#articles"><button href="#articles" class="button-primary">My Articles</button></a>
       </div>
     </div>
   </div>
@@ -73,7 +75,8 @@
   <div class="container">
     <div class="row">
       <div class="twelve columns" style="margin-top: 15%; border: 5px solid bisque; padding: 4rem; text-align: center;">
-        <h3 style="border-bottom: 5px solid bisque; text-align: center;"><strong>Join the Codecademy Vadodara Chapter</strong></h3>
+        <h3 style="border-bottom: 5px solid bisque; text-align: center;"><strong>Join the Codecademy Vadodara
+            Chapter</strong></h3>
         <p>This chapter is place for learners who are learning to code and even professionals because learning never
           stops. Our aim to create a space where learners can attend study sessions, share their projects and hear from
           local speakers. Feel free to join it's free, and hopefully learn something new and have fun!
@@ -84,7 +87,7 @@
           <br>
           🌏 Do I have to be from Vadodara to be a part of this chapter?
           <br>
-          ▪️  No, you can join this chapter irrespective of where you live.
+          ▪️ No, you can join this chapter irrespective of where you live.
           <br>
           <br>
           💸 How much does it cost to join and attend a meetup?
@@ -148,7 +151,73 @@
   </div>
 
   <!-- Projects and Articles –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<!-- 
+
+
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns" id="articles"
+        style="margin-top: 15%; text-align: center; border-bottom: 5px solid bisque;">
+        <h3><strong>Articles</strong> </h3>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="four columns" style="margin-top: 5%; text-align: center; border: 5px solid bisque; padding: 4rem;">
+        <h6><a href="https://mysqlcode.com/mysql-nullif/" target="_blank">The MySQL NULLIF() Function With 5 Easy
+            Examples</a></h6>
+      </div>
+      <div class="four columns" style="margin-top: 5%; text-align: center; border: 5px solid bisque; padding: 4rem;">
+        <h6><a href="" target="_blank"></a></h6>
+      </div>
+      <div class="four columns" style="margin-top: 5%; text-align: center; border: 5px solid bisque; padding: 4rem;">
+        <h6><a href="" target="_blank"></a></h6>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns"
+        style="margin-top: 5%; text-align: center; border-bottom: 5px solid bisque; padding: 1rem;">
+      </div>
+    </div>
+  </div>
+  <div class="container" id="projects">
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 15%; text-align: center; border-bottom: 5px solid bisque;">
+        <h3><strong>Projects</strong></h3>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="four columns" style="margin-top: 5%; text-align: center; border: 5px solid bisque; padding: 4rem;">
+        <h6><a href="">Band Name Generator</a></h6>
+        <span id="tag">Python</span>
+      </div>
+      <div class="four columns" style="margin-top: 5%; text-align: center; border: 5px solid bisque; padding: 4rem;">
+        <h6><a href="https://github.com/KabirCampwala/Python-Projects/blob/main/band-name-generator.py"
+            target="_blank">Tip Calculator</a></h6>
+        <span id="tag">Python</span>
+      </div>
+      <div class="four columns" style="margin-top: 5%; text-align: center; border: 5px solid bisque; padding: 4rem;">
+        <h6><a href="">Band Name Generator</a></h6>
+        <span id="tag">Python</span>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="container" id="projects">
+    <div class="row">
+      <div class="twelve columns"
+        style="margin-top: 5%; text-align: center; border-bottom: 5px solid bisque; padding: 1rem;">
+      </div>
+    </div>
+  </div>
+
+  <!-- Certificates –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- 
   <div class="container">
     <div class="row">
       <div class="six columns" style="margin-top: 15%; text-align: center; border: 1px solid bisque; padding: 4rem;">
@@ -193,15 +262,26 @@
     </div>
   </div> -->
 
-  <!-- Certificates –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-
   <!-- You've found the bonus section –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <!-- Contact Form and Social Links –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="container" id="projects">
+    <div class="row">
+      <div class="six columns" style="margin-top: 10%; margin-bottom: 3%; padding: 1rem; text-align: start;">
+        <p>Made by Kabir Ahmed Campwala</p>
+      </div>
+      <div class="six columns" style="margin-top: 10%; margin-bottom: 3%; padding: 1rem; text-align: end;">
+        <a href="https://github.com/KabirCampwala" target="_blank">Github</a>
+        <span>|</span>
+        <a href="https://www.linkedin.com/in/kabircampwala/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.js"></script>
 </body>
 
