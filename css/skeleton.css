@@ -27,10 +27,16 @@
 - Clearing
 - Media Queries
 */
+:root {
+
+  --bisque: bisque;
+
+}
+
 
 #tag {
   font-size: 1rem;
-  border: 2px solid bisque;
+  border: 2px solid var(--bisque);
   border-radius: 15%;
   padding: 0.4rem;
 }
@@ -315,7 +321,7 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   color: white;
-  border-bottom: 4px solid bisque;
+  border-bottom: 4px solid var(--bisque);
   text-decoration: none;
 }
 
@@ -371,7 +377,7 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: black;
-  background-color: bisque;
+  background-color: var(--bisque);
   border-color: black;
 }
 
@@ -387,7 +393,7 @@ input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: black;
   background-color: rgba(116, 113, 113, 0.493);
-  border-color: bisque;
+  border-color: var(--bisque);
 }
 
 
@@ -522,7 +528,7 @@ th,
 td {
   padding: 12px 15px;
   text-align: center;
-  border-bottom: 1px solid bisque;
+  border-bottom: 1px solid var(--bisque);
 }
 
 th:first-child,
