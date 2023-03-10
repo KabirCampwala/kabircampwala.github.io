@@ -1,4 +1,4 @@
-### Hi there 👋, I'm Kabir Ahmed Campwala
+<!-- ### Hi there 👋, I'm Kabir Ahmed Campwala
 
 I'm Kabir Ahmed from India, and I am a technical writer and a software engineer committed to learning web development #100Devs.
 
@@ -10,4 +10,4 @@ I'm Kabir Ahmed from India, and I am a technical writer and a software engineer 
 
 - 🐍 Python | Flask
 - 💻 HTML, CSS, & JavaScript
-- 🐬 SQL | MySQL
+- 🐬 SQL | MySQL -->
