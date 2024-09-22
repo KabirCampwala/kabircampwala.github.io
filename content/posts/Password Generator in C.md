@@ -2,11 +2,14 @@
 author = "Kabir Campwala"
 title = "Password Generator in C"
 date = "2020-11-17"
+image = "banner.png"
 tags = [
     "C", "Programming", "Project",
 ]
 +++
 
+![image](\banner.png)
+![Alt text](banner.png "a title")
 
 ### Learn how to create a Password Generator In C
 
