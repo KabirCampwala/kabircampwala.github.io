@@ -1,0 +1,40 @@
+baseURL = "https://kabircampwala.github.io/"
+title = "Kabir Campwala"
+theme = "wisdom"
+
+languageCode = "en-us"
+enableRobotsTXT = false
+
+googleAnalytics = 'G-HLB7LE4D83'
+
+[params]
+  author = "Kabir Campwala"
+  description =  "A blog by Kabir Campwala on technology and life."
+  latestPostsLimit = 30
+  hideReadingTime = false
+  hideAuthor = true
+  keywords = [ "computer-science", "programming", "books" ]
+
+[menu]
+[[menu.main]]
+  identifier = 'home'
+  name = 'Home'
+  url = '/'
+  weight = -110
+[[menu.main]]
+  identifier = 'articles'
+  name = 'Articles'
+  url = '/Articles/'
+  weight = -100
+
+[[menu.main]]
+  identifier = 'projects'
+  name = 'Projects'
+  url = '/Projects/'
+  weight = -90
+
+[[menu.main]]
+  identifier = 'about'
+  name = 'About Me'
+  url = '/About/'
+  weight = -80
