@@ -22,9 +22,9 @@ html {
 }
 body {
   max-width: 800px;
-  margin: 40px auto;
-  padding: 0 10px;
-  font: 14px/1.5 monospace;
+  margin: 30px auto;
+  padding: 0 20px;
+  font: 13px/1.5 monospace;
   color: var(--font-color);
   background: var(--bg-color);
 }
@@ -33,7 +33,7 @@ a:link {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: var(--visited-color) wavy underline;
 }
 a:visited {
   color: var(--visited-color);
@@ -96,7 +96,7 @@ header[role="main"] nav {
 .meta {
   ul {
     list-style: none;
-    padding: 0;
+    padding: 5px 0 0 11px;
     margin: 0;
   }
 
