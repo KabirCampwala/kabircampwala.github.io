@@ -3,7 +3,7 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 :root {
-  --bg-color: #FAE0D6;
+  --bg-color: #f2eae7;
   --font-color: #222f;
   --link-color: #00e;
   --visited-color: #551a8b;
@@ -22,8 +22,8 @@ html {
 }
 body {
   max-width: 800px;
-  margin: 30px auto;
-  padding: 0 20px;
+  margin: 2px auto;
+  padding: 0 15px;
   font: 13px/1.5 monospace;
   color: var(--font-color);
   background: var(--bg-color);
@@ -84,9 +84,8 @@ img {
 header[role="main"] nav {
   ol,ul {
     list-style: none;
-    padding: 0;
+    padding: 0 0 7px 5px;
     margin: 0;
-
     li {
       display: inline-block;
     }
@@ -96,7 +95,7 @@ header[role="main"] nav {
 .meta {
   ul {
     list-style: none;
-    padding: 5px 0 0 11px;
+    padding-left: 7px;
     margin: 0;
   }
 
