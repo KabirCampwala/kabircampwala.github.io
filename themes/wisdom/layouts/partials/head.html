@@ -76,20 +76,7 @@
 
 {{- template "_internal/schema.html" . }}
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HLB7LE4D83"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-HLB7LE4D83');
-</script>
-
-{{- if hugo.IsProduction }}
-{{- template "_internal/twitter_cards.html" . }}
-{{- template "_internal/opengraph.html" . }}
-{{- template "_internal/google_analytics.html" . }}
-{{- end -}}
+{{ template "_internal/google_analytics.html" . }}
+{{ template "_internal/google_analytics_async.html" . }}
 
 {{- hugo.Generator }}
