@@ -3,17 +3,14 @@ title = "Kabir Campwala"
 theme = "wisdom"
 
 languageCode = "en-us"
-enableRobotsTXT = false
+enableRobotsTXT = true
 
 googleAnalytics = 'G-HLB7LE4D83'
 
 [params]
-  author = "Kabir Campwala"
-  description =  "A blog by Kabir Campwala on technology and life."
   latestPostsLimit = 30
-  hideReadingTime = false
-  hideAuthor = true
-  keywords = [ "computer-science", "programming", "books" ]
+  hideReadingTime = true
+  hideAuthor = false
 
 [menu]
 [[menu.main]]
@@ -21,20 +18,3 @@ googleAnalytics = 'G-HLB7LE4D83'
   name = 'Home'
   url = '/'
   weight = -110
-[[menu.main]]
-  identifier = 'articles'
-  name = 'Articles'
-  url = '/Articles/'
-  weight = -100
-
-[[menu.main]]
-  identifier = 'projects'
-  name = 'Projects'
-  url = '/Projects/'
-  weight = -90
-
-[[menu.main]]
-  identifier = 'about'
-  name = 'About Me'
-  url = '/about/'
-  weight = -80
