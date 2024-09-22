@@ -36,5 +36,5 @@ googleAnalytics = 'G-HLB7LE4D83'
 [[menu.main]]
   identifier = 'about'
   name = 'About Me'
-  url = '/About/'
+  url = '/about/'
   weight = -80

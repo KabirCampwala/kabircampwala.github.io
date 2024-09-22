@@ -5,7 +5,7 @@ aliases:
     - curriculum-vitae.html
     - resume.html
 ---
-|||
+<!-- |||
 |---|---|
 |Date of birth | July 25, 1985 |
 |Email | [contact@maxrodrigo.com](mailto:contact@maxrodrigo.com) |
@@ -245,4 +245,4 @@ Universidad Nacional de Mar del Plata · Aug 2002\
 
 __Olimpiadas de Informática 2001 Mar del Plata__\
 Universidad Nacional de Mar del Plata · Sep 2001\
-1st place in the "Web Design and Programming" competition.
+1st place in the "Web Design and Programming" competition. -->

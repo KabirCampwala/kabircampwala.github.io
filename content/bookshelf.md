@@ -4,7 +4,7 @@ description: Books, talks and other resources I consider noteworthy.
 aliases:
     - /bookshelf.html
 ---
-
+<!--
 Some of the books, videos and other resources I consider noteworthy.
 
 Is also a good place to thank all my friends and mentors who helped me in this adventure of learning.
@@ -47,4 +47,4 @@ Is also a good place to thank all my friends and mentors who helped me in this a
   - **Open Security Training**\
     http://opensecuritytraining.info/Welcome.html
   - **Semantic Linefeed**\
-    https://rhodesmill.org/brandon/2012/one-sentence-per-line/
+    https://rhodesmill.org/brandon/2012/one-sentence-per-line/ -->

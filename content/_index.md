@@ -1,38 +1,24 @@
 ---
-title: Hi, I'm Kabir 👋
+title: Kabir Campwala
 ---
 
-Hi there, my name is Kabir. VP of Engineering at [EVPassport](https://www.evpassport.com/) and founder of [0xffsec](https://0xffsec.com).
+Hi there, my name is Kabir. I am a final year computer science student 🎓
 
-Curriculum Vitae: ~~PDF~~ · [HTML](cv.html)
+<!-- Curriculum Vitae: [HTML](cv.html) -->
 
 You can reach me at:
 
-- [contact@maxrodrigo.com](mailto:contact@maxrodrigo.com) [[Public Key](/maxrodrigo-pubkey.gpg)]
-- [@maxrodrigo](https://github.com/maxrodrigo/) on GitHub
-- [LinkedIn](https://www.linkedin.com/in/maxrodrigo/)
+- [LinkedIn](https://www.linkedin.com/in/kabircampwala/)
+- [@KabirCampwala](https://github.com/kabirCampwala/) on GitHub
+- [@KabirCampwala](https://x.com/KabirCampwala) on Twitter
 
-## Thinks I do.
+## Projects
 
-:pager: cyber
+:globe_with_meridians: Web
 
-- [0xffsec Pentesting Handbook](https://0xffsec.com/handbook)
-- [Web Dōjō - WebApps Pentesting Lab](https://github.com/0xffsec/webdojo)
+- [Lavender - Notes Application](https://github.com/KabirCampwala/lavender-notes-app)
+- [ArticleScout - Article Recommendation System](https://github.com/KabirCampwala/Article-Recommendation-System)
+- [Snowy -Book tracker](https://github.com/KabirCampwala/Snowy---Book-Tracker)
+<!-- :book: Reading -->
 
-:cloud: cloud
-
-- [Cookiecutter Chalice Framework](https://github.com/maxrodrigo/cookiecutter-chalice)
-- [λ AWS Lambdas@Edge A/B Testing](https://github.com/maxrodrigo/ab-testing-lambdas)
-
-:rice: rice
-
-- [NordVPN Tmux Plugin](https://github.com/maxrodrigo/tmux-nordvpn)
-- [μz](https://github.com/maxrodrigo/uz) - ZSH Micro Plugin Manager.
-- [homesick](https://github.com/maxrodrigo/homesick) - My daily dotfiles.
-- [gitster](https://github.com/maxrodrigo/gitster) - A Gister ZSH theme with no dependencies.
-
-:alien: others
-
-- [Wisdom Hugo Theme](https://github.com/maxrodrigo/hugo-theme-wisdom/) - Fast, minimalist, and monospace.
-- [wasabi](https://github.com/maxrodrigo/wasabi) - A simple yet useful keypad.
-- [Bookshelf](bookshelf) - My bookshelf.
+<!-- - [Bookshelf](bookshelf) - My bookshelf. -->
