@@ -1,8 +1,5 @@
----
-title: Kabir Campwala
----
 
-🐋 Hi there! I'm Kabir. A computer science student passionate about learning, innovation, and the world of technology.
+🐳 Hi there! I'm Kabir. A computer science student passionate about learning, innovation, and the world of technology.
 
 <!-- Curriculum Vitae: [HTML](cv.html) -->
 
