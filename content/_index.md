@@ -17,5 +17,5 @@ Your go-to note-taking app! Create, manage, and organize your notes with ease. E
 ### 📄 [ArticleScout - Article Recommendation System](https://github.com/KabirCampwala/Article-Recommendation-System)
 A content-based article recommendation system that finds similar articles based on user queries and word frequency. Built with Python, Node, and Express. 📚
 
-### 📖 [Snowy -Book tracker](https://github.com/KabirCampwala/Snowy---Book-Tracker)
+### 📖 [Snowy - Book tracker](https://github.com/KabirCampwala/Snowy---Book-Tracker)
 A book tracker web app that helps you effortlessly track your reading journey with virtual bookmarks. Built using Python and Flask. 📕🔖
