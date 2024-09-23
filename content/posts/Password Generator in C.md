@@ -1,11 +1,8 @@
 +++
 author = "Kabir Campwala"
 title = "Password Generator in C"
-date = "2020-11-17"
 image = "banner.png"
-tags = [
-    "C", "Programming", "Project",
-]
+tags = ["C", "Programming", "Project"]
 +++
 
 ![image](\banner.png)

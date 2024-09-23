@@ -3,28 +3,28 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 :root {
-  --bg-color: #f2eae7;
-  --font-color: #222f;
-  --link-color: #00e;
-  --visited-color: #551a8b;
-  --pre-color: #fff;
+  --bg-color: #F7F6E3;
+  --font-color: #4E351E;
+  --link-color: #6C5234;
+  --pre-color: #FFF;
   --pre-bg-color: #000;
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: #110527;
-    --font-color: #ffff;
-    --link-color: #ae5ee0;
-    --visited-color: #ae5ee0;
+    --bg-color: #0b0820;
+    --font-color: #EDE8F5;
+    --link-color: #7761A9;
     --pre-color: #fff;
     --pre-bg-color: #383838;
   }
 }
+
 body {
   max-width: 800px;
   margin: 2px auto;
   padding: 0 15px;
-  font: 13px/1.5 monospace;
+  font: 13.5px/1.5 monospace;
   color: var(--font-color);
   background: var(--bg-color);
 }
@@ -33,13 +33,13 @@ a:link {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: var(--visited-color) wavy underline;
+  text-decoration: var(--link-color) wavy underline;
 }
 a:visited {
-  color: var(--visited-color);
+  color: var(--link-color);
 }
 a:active {
-  color: var(--visited-color);
+  color: var(--link-color);
 }
 h1,
 h2,
@@ -126,5 +126,6 @@ header[role="main"] nav {
 
 footer {
   font: 12px/1.5 monospace;
-  padding-top: 24px;
+  padding-top: 22px;
+  padding-bottom: 7px;
 }
