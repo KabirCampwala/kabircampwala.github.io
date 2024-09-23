@@ -13,6 +13,9 @@
     <div>
         {{ template "_internal/disqus.html" . }}
     </div>
+    <div class="content">
+        {{ .Content | safeHTML }}
+    </div>
     {{ end }}
 </article>
 </main>

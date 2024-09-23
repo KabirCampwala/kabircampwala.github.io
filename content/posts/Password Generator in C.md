@@ -5,8 +5,7 @@ image = "banner.png"
 tags = ["C", "Programming", "Project"]
 +++
 
-![image](\banner.png)
-![Alt text](banner.png "a title")
+![Password Generator in C](/c/banner.png)
 
 ### Learn how to create a Password Generator In C
 
@@ -18,14 +17,21 @@ Having a strong password is a must today. A strong password means better securit
 3. Generate a random password
 4. Output that password to the user
 
+![Code Screenshot](/c/1.png)
+
 To start off we are going to use functions from three different libraries so we'll include these into our code.
+
+![Code Screenshot](/c/2.png)
 
 Let us start with the first step of greeting the user. We will do that inside the main function and declare a variable for storing the length of password.
 
+![Code Screenshot](/c/3.png)
 
 Now we'll get the user's input for the length of the password they want.
 
 To generate random passwords we will create a function and name it "password".
+
+![Code Screenshot](/c/4.png)
 
 Let us understand what does that "list" array mean and why do we need it.
 
@@ -46,11 +52,14 @@ What value can automatically change when we run the program each time?
 Found the answer?
 
 That's right it's "TIME".
-```
 
 Time will change every time when we run the program. That is why we will use:
 
+![Code Screenshot](/c/5.png)
+
 Now for generating and printing the generated password we will use a "for loop" and use the array "list" we created earlier to get random numbers, letters and symbols from that array.
+
+![Code Screenshot](/c/6.png)
 
 The above code generates a letter or a symbol or an alphabet in every iteration until the password length entered by the user is reached.
 
@@ -58,7 +67,10 @@ That's it! You created a password generator in C.
 
 Now let's see what it looks like after we run the program.
 
+![Code Screenshot](/c/7.png)
+
 Below is the full program with the formatting used above:
+
 ```C
 #include <stdio.h>
 #include <time.h>
