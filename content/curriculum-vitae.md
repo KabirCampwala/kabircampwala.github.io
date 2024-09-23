@@ -54,7 +54,7 @@ May 2019 - Jul 2019
 
 ## Education
 
-### Oarul University
+### Parul University
 __Integrated B.Tech in Computer Science and Engineering__\
 - CGPA: 9.04 / 10
 - Relevant Coursework:
@@ -65,6 +65,11 @@ __Integrated B.Tech in Computer Science and Engineering__\
     - Fundamentals of Software Development
 
 ## Projects
+
+__Lavender - Notes Application__\
+Lavender is a note-taking application. You can creat, read, edit, delete your notes. It is simple and easy to use.
+
+Technologies used: EJS, CSS, Node.js, Express, and MongoDB
 
 __ArticleScout - Article Recommendation System__\
 Content-based article recommendation system that calculates a score for each article based on the user's query and word frequency, to provide similar articles.
