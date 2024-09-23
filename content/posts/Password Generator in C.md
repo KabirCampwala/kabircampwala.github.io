@@ -1,15 +1,12 @@
 +++
 author = "Kabir Campwala"
 title = "Password Generator in C"
-image = "banner.png"
 tags = ["C", "Programming", "Project"]
 +++
 
 ![Password Generator in C](/c/banner.png)
 
-### Learn how to create a Password Generator In C
-
-Having a strong password is a must today. A strong password means better security. It may get exhausting thinking of strong passwords when you have to create an account for something almost everyday. So for your convenience, today we will write a program in 60 lines which can provide you with random passwords.
+Having a strong password is a must today. A strong password means better security. It may get exhausting thinking of strong passwords when you have to create an account for something almost everyday. So for your convenience, today we will write a short program which can provide you with random passwords.
 
 ### Objectives to accomplish with the password generator are:
 1. Greet the user
@@ -33,11 +30,11 @@ To generate random passwords we will create a function and name it "password".
 
 ![Code Screenshot](/c/4.png)
 
-Let us understand what does that "list" array mean and why do we need it.
+Let us understand what does that `list` array mean and why do we need it.
 
 To generate the password we need a place from where we can grab random numbers, alphabets and symbols. That is why we created the array list.
 
-A computer cannot generate a random number or a letter. Yes we have the "rand()" function but that function also follows a specific set of rules which will give the same output again and again.
+A computer cannot generate a random number or a letter. Yes we have the `rand()` function but that function also follows a specific set of rules which will give the same output again and again.
 
 To solve this problem what we can do is use `srand()`.
 
@@ -57,7 +54,7 @@ Time will change every time when we run the program. That is why we will use:
 
 ![Code Screenshot](/c/5.png)
 
-Now for generating and printing the generated password we will use a "for loop" and use the array "list" we created earlier to get random numbers, letters and symbols from that array.
+Now for generating and printing the generated password we will use a `for` loop and use the array `list` we created earlier to get random numbers, letters and symbols from that array.
 
 ![Code Screenshot](/c/6.png)
 
