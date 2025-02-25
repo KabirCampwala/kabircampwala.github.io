@@ -8,18 +8,20 @@ aliases:
 |||
 |---|---|
 |Github | https://github.com/KabirCampwala |
-|Website | https://kabircampwala.github.io/ |
 |LinkedIn | [/in/kabircampwala/](https://www.linkedin.com/in/kabircampwala/) |
-|Revised | Sep 23, 2024 |
+|Website | https://kabircampwala.github.io/ |
+|Revised | Feb 23, 2025 |
 
 ## Summary
 
-Computer Science student with a passion for learning, innovation, and technology. Looking to utilize my technical background as well as organizational and leadership skills in a software development internship.
+Computer Science student with a passion for learning, innovation, and technology. Looking to utilize my technical background as well as organizational and leadership skills in a software engineering internship.
 
 ## Skills
-- Java, Python, Flask, MySQL, JavaScript, Git, GitHUb, MongoDB, HTML, CSS, Node, Express, React.js, Next.js, Tailwind, and Linux
-- Leadership, Persistence and Patience, Time Management, Problem Solving, and Team Collaboration
-- English, Hindi, and Gujarati – All professional proficiency or above
+- Programming Languages - Python, JavaScript, HTML, CSS
+- Databases - MySQL, NoSQL (MongoDB), SQLAlchemy, SQLite
+- Tools and IDE - Git, GitHub, MS Excel, Figma, Webflow
+- Technologies - Flask, Node.js, Express.js, Tailwind CSS, Hugo, EJS
+- Soft Skills - Problem Solving, Time Management, Teamwork, Communication
 
 ## Professional Experience
 
@@ -56,7 +58,7 @@ May 2019 - Jul 2019
 
 ### Parul University
 __Integrated B.Tech in Computer Science and Engineering__\
-- CGPA: 9.04 / 10
+- CGPA: 8.94 / 10
 - Relevant Coursework:
     - MEA(R)N Stack Web Development
     - Data Structures and Algorithms
@@ -66,17 +68,17 @@ __Integrated B.Tech in Computer Science and Engineering__\
 
 ## Projects
 
-__Lavender - Notes Application__\
+[__Lavender - Notes Application__](https://github.com/KabirCampwala/lavender-notes-app)\
 Lavender is a note-taking application. You can creat, read, edit, delete your notes. It is simple and easy to use.
 
 Technologies used: EJS, CSS, Node.js, Express, and MongoDB
 
-__ArticleScout - Article Recommendation System__\
+[__ArticleScout - Article Recommendation System__](https://github.com/KabirCampwala/Article-Recommendation-System)\
 Content-based article recommendation system that calculates a score for each article based on the user's query and word frequency, to provide similar articles.
 
 Technologies used: Python, Node, Express, EJS, HTML, and CSS
 
-__Snowy - Book Tracker__\
+[__Snowy - Book Tracker__](https://github.com/KabirCampwala/Snowy---Book-Tracker)\
 A book tracker web app that makes it easy to track your reading progress with the help of virtual bookmarks.
 
 Technologies used: Python, Flask, Skeleton CSS, and HTML
