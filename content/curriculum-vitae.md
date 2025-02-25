@@ -57,7 +57,7 @@ May 2019 - Jul 2019
 ## Education
 
 ### Parul University
-__Integrated B.Tech in Computer Science and Engineering__\
+__Integrated B.Tech in Computer Science and Engineering__
 - CGPA: 8.94 / 10
 - Relevant Coursework:
     - MEA(R)N Stack Web Development
