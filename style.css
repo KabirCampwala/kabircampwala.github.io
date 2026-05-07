@@ -460,14 +460,11 @@ img {
     .hero-title,
     .section-title {
         font-size: clamp(1rem, 5vw, 2rem);
-    }
-
-    .hero-meta {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        text-align: center;
     }
 
     .skills-grid {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 0.65rem;
         padding-inline: clamp(0.5rem, 2vw, 1.5rem);
     }
@@ -535,7 +532,7 @@ img {
     }
 
     .skills-grid {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 0.5rem;
         padding-inline: 0.15rem;
     }
@@ -555,7 +552,7 @@ img {
     }
 
     .projects-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(1, minmax(0, 1fr));
         gap: 0.7rem;
         padding-inline: 0.15rem;
     }
