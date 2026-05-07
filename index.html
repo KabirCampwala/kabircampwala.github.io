@@ -2,93 +2,378 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kabir Ahmed Campwala | Backend & API Engineer</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kabir Ahmed Campwala</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">Kabir Ahmed Campwala</a>
 
-  <header class="hero">
-    <h1>Kabir Ahmed Campwala</h1>
-    <p class="subtitle">Backend Developer • API Engineering</p>
-
-    <nav class="buttons">
-      <a href="https://github.com/KabirCampwala">GitHub</a>
-      <a href="https://linkedin.com/in/kabircampwala">LinkedIn</a>
-    </nav>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#about"><b>About</b></a>
+        <a href="#experience"><b>Experience</b></a>
+        <a href="#projects"><b>Projects</b></a>
+        <a href="#skills"><b>Skills</b></a>
+        <a href="#contact"><b>Contact</b></a>
+      </nav>
+    </div>
   </header>
 
   <main>
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="container hero-inner">
+        <p class="eyebrow">Building the unseen</p>
 
-    <section class="about">
-      <h2>About</h2>
-      <p>
-        Backend developer focused on building scalable APIs and integration systems.
-        Experienced with Java, Python, API gateways, and modern backend architectures.
-        Currently working on API management and distributed service communication.
-      </p>
-    </section>
+        <h1 class="hero-title">
+          Clever backend systems, powerful APIs, and automation that turn messy complexity into seamless
+          digital experiences</h1>
 
-    <section class="projects">
-      <h2>Projects</h2>
-
-      <article class="project">
-        <h3>Banking API Gateway</h3>
-        <p>
-          Designed an API proxy implementing secure REST endpoints with validation,
-          rate limiting, caching, and OAuth/JWT authentication.
-        </p>
-      </article>
-
-      <article class="project">
-        <h3>Lavender Notes</h3>
-        <p>
-          Full-stack note-taking application with Node.js backend,
-          authentication, and MySQL persistence.
-        </p>
-        <a href="https://github.com/KabirCampwala/Lavender-Notes">View Code →</a>
-      </article>
-
-      <article class="project">
-        <h3>Article Recommendation System</h3>
-        <p>
-          Python-based recommendation engine suggesting articles based on
-          reading behavior patterns.
-        </p>
-        <a href="https://github.com/KabirCampwala/Article-Recommendation-System">View Code →</a>
-      </article>
-    </section>
-
-    <section class="skills">
-      <h2>Skills</h2>
-
-      <div class="skill-grid">
-
-        <div class="skill-group">
-          <h4>Languages</h4>
-          <p>Java, Python, JavaScript, SQL</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Learn more about me</a>
         </div>
-
-        <div class="skill-group">
-          <h4>Technologies</h4>
-          <p>REST APIs, API Gateway, OAuth2, JWT, SOAP, XML, JSON</p>
-        </div>
-
-        <div class="skill-group">
-          <h4>Tools</h4>
-          <p>Docker, Git, Postman, MySQL, AWS, Eclipse, VS Code</p>
-        </div>
-
       </div>
     </section>
 
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">About</p>
+          <h2 class="section-title">Hi! My name is Kabir</h2>
+          <div class="about-content">
+            <p class="section-description">
+              I am a backend developer focused on APIs, integration, and systems that make complexity feel simple.
+              Currently a
+              Programmer Analyst Trainee at Cognizant, I work with API platforms like Apigee to design secure
+              integrations, scalable backend services, and digital infrastructure that power seamless experiences. I
+              enjoy building thoughtful systems, from API gateways to full-stack products that connect data,
+              services, and people. Outside of tech, I love reading, journaling, and drawing.
+            </p>
+          </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Experience</p>
+          <h2 class="section-title">My Professional trajectory</h2>
+        </div>
+
+        <div class="experience-list">
+          <article class="experience-item">
+            <p class="experience-date">Dec 2025 - Present</p>
+            <div>
+              <h3>Cognizant — Programmer Analyst Trainee</h3>
+              <ul class="bullet-list">
+                <li>Designed and developed a banking API proxy with 6+ REST endpoints for account information, balance
+                  lookup, transaction processing, and credit score services.</li>
+                <li>Implemented API gateway policies including request validation, quota-based rate limiting, response
+                  caching, and structured error handling.</li>
+                <li>Secured APIs with OAuth 2.0, Basic Auth, and JWT while onboarding multiple consumer applications
+                  through different access routes.</li>
+                <li>Integrated mock backend services using JSON and key value maps to manage account data and simulate
+                  persistence.</li>
+                <li>Built stronger API development expertise through structured training in J2EE, REST, SOAP, XML, and
+                  API management tools.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-item">
+            <p class="experience-date">Dec 2024 — Jun 2025</p>
+            <div>
+              <h3>New Baroda City Bakery — Software & Process Automation Intern</h3>
+              <ul class="bullet-list">
+                <li>Engineered a data tracking system to log sale movements and improve data accuracy and real-time
+                  visibility.</li>
+                <li>Designed and implemented an interactive Google Sheets dashboard with charts, pivot tables, and
+                  formulas.</li>
+                <li>Automated sales and weekly stock updates using spreadsheet formulas and workflow logic.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-item">
+            <p class="experience-date">Mar 2022 — Jun 2022</p>
+            <div>
+              <h3>Tobu Penguin — Junior Developer Intern</h3>
+              <ul class="bullet-list">
+                <li>Contributed to backend development of a Python open-source project, implementing new features in
+                  Flask and managing bug fixes.</li>
+                <li>Containerized releases with Docker and deployed to AWS Lightsail to improve scalability and uptime.
+                </li>
+                <li>Resolved backend issues through GitHub contributions, improving codebase reliability and feature
+                  responsiveness.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-item">
+            <p class="experience-date">Dec 2021 — Jan 2022</p>
+            <div>
+              <h3>JournalDev.com — Technical Writing Intern</h3>
+              <ul class="bullet-list">
+                <li>Wrote technical articles and documentation around web development topics.</li>
+                <li>Created clear, structured educational content for developers and learners.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Projects</p>
+          <h2 class="section-title">Systems, products, and client work</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card project-card-featured">
+            <p class="project-kicker">Enterprise Infrastructure</p>
+            <h3>Banking API Gateway</h3>
+            <p>Designed a secure API proxy architecture implementing REST endpoints, request validation, rate limiting,
+              caching layers, and OAuth/JWT authentication for enterprise-grade backend infrastructure.</p>
+            <div class="tag-list">
+              <span class="tag">Apigee</span>
+              <span class="tag">REST API</span>
+              <span class="tag">API Gateway</span>
+              <span class="tag">OAuth</span>
+              <span class="tag">JWT</span>
+              <span class="tag">Policy Design</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <p class="project-kicker">Recommendation Engine</p>
+            <h3>Article Recommendation System</h3>
+            <p>Built an intelligent recommendation platform focused on personalized article discovery, ranking logic,
+              and user-centric relevance.</p>
+            <div class="tag-list">
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Recommendation Engine</span>
+              <span class="tag">Python</span>
+              <span class="tag">Data Processing</span>
+              <span class="tag">Content Discovery</span>
+              <span class="tag">Algorithms</span>
+            </div>
+            <div class="button-row">
+              <a class="btn btn-primary btn-small"
+                href="https://github.com/KabirCampwala/Article-Recommendation-System">GitHub Repository</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <p class="project-kicker">Landing Page</p>
+            <h3>Noor Al Quran</h3>
+            <p>Developed a purpose-driven digital platform with accessible structure, modern presentation, and
+              thoughtful content delivery.</p>
+            <div class="tag-list">
+              <span class="tag">Frontend Development</span>
+              <span class="tag">Web App</span>
+              <span class="tag">UI/UX</span>
+              <span class="tag">Landing Page</span>
+              <span class="tag">Web Design</span>
+              <span class="tag">Carrd</span>
+            </div>
+            <div class="button-row">
+              <a class="btn btn-primary btn-small" href="https://nooralquran.crd.co/">Live Site</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <p class="project-kicker">Client Portfolio</p>
+            <h3>Sehrish.me</h3>
+            <p>Built a refined personal brand platform focused on elegant digital identity, design clarity, and
+              strategic web presence.</p>
+            <div class="tag-list">
+              <span class="tag">Frontend Development</span>
+              <span class="tag">Web App</span>
+              <span class="tag">Javascript</span>
+              <span class="tag">Web Design</span>
+
+              <span class="tag">Carrd</span>
+            </div>
+            <div class="button-row">
+              <a class="btn btn-primary btn-small" href="https://sehrish.me/">Live Site</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <p class="project-kicker">Product Build</p>
+            <h3>Lavender Notes App</h3>
+            <p>Designed and developed a productivity-focused digital notes platform emphasizing organization
+              and streamlined workflows.</p>
+            <div class="tag-list">
+              <span class="tag">Full-Stack Web App</span>
+              <span class="tag">Web App</span>
+              <span class="tag">UI/UX</span>
+              <span class="tag">Figma</span>
+              <span class="tag">SQLAlchemy</span>
+              <span class="tag">React</span>
+
+            </div>
+            <div class="button-row">
+              <a class="btn btn-primary btn-small" href="https://github.com/KabirCampwala/lavender-notes-app">GitHub
+                Repository</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <p class="project-kicker">Consumer App</p>
+            <h3>Snowy — Book Tracker</h3>
+            <p>Created a user-centered reading tracker designed for book organization, progress monitoring, and reading
+              engagement.</p>
+            <div class="tag-list">
+              <span class="tag">Full-Stack Web App</span>
+              <span class="tag">Flask</span>
+              <span class="tag">Python</span>
+              <span class="tag">SQLAlchemy</span>
+              <span class="tag">Bootstrap</span>
+            </div>
+            <div class="button-row">
+              <a class="btn btn-primary btn-small" href="https://github.com/KabirCampwala/Snowy---Book-Tracker">GitHub
+                Repository</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Skills</p>
+          <h2 class="section-title">Technologies I use the most</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card"><img src="https://cdn.simpleicons.org/javascript" alt="JavaScript logo">
+          </article>
+
+          <article class="skill-card"><img src="https://files.svgcdn.io/logos/apigee.svg" alt="Apigee logo">
+          </article>
+
+          <article class="skill-card"><img src="https://files.svgcdn.io/logos/postman.svg" alt="Postman logo">
+          </article>
+
+          <article class="skill-card"><img src="https://files.svgcdn.io/logos/python.svg" alt="Python logo">
+          </article>
+
+          <article class="skill-card"><img src="https://cdn.simpleicons.org/xml" alt="XML logo">
+          </article>
+
+          <article class="skill-card"><img src="https://files.svgcdn.io/logos/github.svg" alt="GitHub logo">
+          </article>
+
+          <article class="skill-card"><img src="https://files.svgcdn.io/logos/git.svg" alt="Git logo">
+          </article>
+
+          <article class="skill-card"><img src="https://files.svgcdn.io/logos/mysql.svg" alt="MySQL logo">
+          </article>
+
+          <article class="skill-card"><img src="https://files.svgcdn.io/logos/wordpress.svg" alt="WordPress logo">
+          </article>
+
+          <article class="skill-card"><img src="https://cdn.simpleicons.org/googlesheets" alt="Google Sheets logo">
+          </article>
+
+
+          <article class="skill-card"><img src="https://files.svgcdn.io/logos/flask.svg" alt="Flask logo">
+          </article>
+
+          <article class="skill-card"><img src="https://files.svgcdn.io/logos/hugo.svg" alt="Hugo logo">
+          </article>
+
+          <article class="skill-card"><img src="https://files.svgcdn.io/lineicons/canva.svg" alt="Canva logo">
+          </article>
+
+          <article class="skill-card"><img src="https://files.svgcdn.io/logos/docker.svg" alt="Docker logo">
+          </article>
+
+          <article class="skill-card"><img src="https://files.svgcdn.io/simple-icons/carrd.svg" alt="Carrd logo">
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-contact" id="contact">
+      <div class="container contact-inner">
+        <p class="section-label">Contact</p>
+        <h2 class="section-title">Let’s build something meaningful!</h2>
+        <p class="section-description">Open to backend engineering, API integration, automation, and digital product
+          opportunities.</p>
+
+        <div class="contact-links">
+          <a href="mailto:kabircampwala@outlook.com" class="btn btn-primary">Email Me</a>
+          <a href="https://github.com/KabirCampwala" class="btn btn-secondary">GitHub</a>
+          <a href="https://linkedin.com/in/kabircampwala" class="btn btn-secondary">LinkedIn</a>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <p>© 2026 Kabir Ahmed Campwala</p>
+  <footer class="site-footer">
+    <div class="container">© 2026 Kabir Ahmed Campwala</div>
   </footer>
+
+  <!-- Add this right before your closing </body> tag -->
+  <script>
+    /* =========================================================
+       Smart Navbar Hide on Scroll Down / Show on Scroll Up
+    ========================================================= */
+
+    const header = document.querySelector('.site-header');
+    let lastScrollY = window.scrollY;
+
+    window.addEventListener('scroll', () => {
+      const currentScrollY = window.scrollY;
+
+      /* Always show near top */
+      if (currentScrollY <= 40) {
+        header.classList.remove('nav-hidden');
+        lastScrollY = currentScrollY;
+        return;
+      }
+
+      /* Hide when scrolling down */
+      if (currentScrollY > lastScrollY) {
+        header.classList.add('nav-hidden');
+      }
+      /* Show when scrolling up */
+      else {
+        header.classList.remove('nav-hidden');
+      }
+
+      lastScrollY = currentScrollY;
+    });
+  </script>
 
 </body>
 
