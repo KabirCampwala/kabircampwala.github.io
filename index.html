@@ -345,10 +345,10 @@
 
   <!-- Add this right before your closing </body> tag -->
 <!-- 100% privacy-first analytics -->
-<script async src="https://scripts.simpleanalyticscdn.com/latest.js">
-  /* =========================================================
-       Smart Navbar Hide on Scroll Down / Show on Scroll Up
-    ========================================================= */
+  <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+
+  <script>
+
 
     const header = document.querySelector('.site-header');
     let lastScrollY = window.scrollY;
@@ -357,27 +357,23 @@
       const currentScrollY = window.scrollY;
 
       /* Always show near top */
-      if (currentScrollY <= 40) {
+      if (currentScrollY <= 20) {
         header.classList.remove('nav-hidden');
-        lastScrollY = currentScrollY;
-        return;
       }
 
-      /* Hide when scrolling down */
-      if (currentScrollY > lastScrollY) {
+      /* Hide immediately on scroll down */
+      else if (currentScrollY > lastScrollY) {
         header.classList.add('nav-hidden');
       }
-      /* Show when scrolling up */
-      else {
+
+      /* Show immediately on scroll up */
+      else if (currentScrollY < lastScrollY) {
         header.classList.remove('nav-hidden');
       }
 
       lastScrollY = currentScrollY;
     });
-
-    <!-- 100% privacy-first analytics -->
   </script>
-
 </body>
 
 </html>
